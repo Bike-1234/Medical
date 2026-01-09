@@ -1,0 +1,6 @@
+body{font-family:Arial;margin:20px;background:#f5f5f5}
+.card{background:#fff;padding:16px;border-radius:8px;max-width:600px;margin:12px auto;box-shadow:0 2px 6px rgba(0,0,0,0.08)}
+input{display:block;padding:8px;margin:8px 0;width:100%}
+button{padding:8px 12px;margin:6px 0}
+.centered{display:flex;gap:20px;align-items:flex-start;justify-content:center;flex-direction:column}
+.note{max-width:600px;margin:0 auto;color:#666;font-size:13px}

@@ -1,0 +1,65 @@
+.auth-page {
+  background-image: url('assets/hospital-bg.png'); /* Make sure hospital-bg.png is in src/assets/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.auth-card {
+  background: rgba(255, 255, 255, 0.9); /* White with transparency */
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  width: 350px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.auth-card input,
+.auth-card select {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976d2; /* Blue button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  background-color: #115293;
+}
+
+.toggle-link {
+  margin-top: 15px;
+  color: #1976d2;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  color: #115293;
+}
